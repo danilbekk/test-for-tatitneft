@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import { TopicsType } from '../interfaces/TopicsModel';
+import { TopicsType } from '../interfaces/topicsModel';
 
 const topicApi = createApi({
   reducerPath: 'topicApi',

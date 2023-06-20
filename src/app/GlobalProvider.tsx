@@ -1,6 +1,6 @@
 import React from 'react';
 import { Provider as ReduxProvider } from 'react-redux';
-import store from '../storage/Redux/store';
+import store from '../storage/redux/store';
 import { BrowserRouter } from 'react-router-dom';
 import './GlobalStyles.css';
 
