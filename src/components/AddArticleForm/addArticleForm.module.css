@@ -1,0 +1,89 @@
+.addArticleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  padding-top: 20px;
+}
+.backMainPageButton,
+.backPageButton {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addArticleForm {
+  min-width: 400px;
+  max-width: 650px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.formHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addArticleTitle {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.addArticleLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.addArticleInput {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addArticleTextarea {
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 150px;
+  min-height: 150px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addArticleButton {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addArticleButton:hover {
+  background-color: #45a049;
+}
+
+.addArticleButton:disabled {
+  opacity: 0.5;
+}

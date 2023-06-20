@@ -1,0 +1,111 @@
+.articleListContainer {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 20px;
+  background-color: rgb(245, 245, 245);
+  padding: 40px 0 20px 0;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  padding: 10px 0 20px 0;
+}
+
+.articleContainer {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.articleListFilters {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.articleListFilters input[type="date"] {
+  padding: 5px;
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.articleListFilters input[type="date"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.articleListFilters input[type="date"]:hover {
+  border-color: #999;
+}
+
+.articleListFilters input[type="date"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.articleResetFilters {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #1bbe05;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.articleResetFilters:hover {
+  background-color: #1aaa07;
+}
+
+.articleResetFilters:active {
+  background-color: #149403;
+}
+
+
+
+.articleListInput {
+  padding: 5px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.addArticle {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addArticle:hover {
+  background-color: #0056b3;
+}
+
+.addArticle:active {
+  background-color: #003080;
+}
+
+.inputDate {
+  margin-bottom: 10px;
+}
+
+.inputDate>span {
+  margin-left: 5px;
+}

@@ -1,0 +1,49 @@
+.articleContainer {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 4px;
+  max-width: 650px;
+}
+
+.articleTitle {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.articleTitle:hover {
+  color: #007bff;
+}
+
+.articleText {
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  white-space: pre-line;
+}
+
+.articleInfo {
+  font-size: 14px;
+  color: #657786;
+  margin-bottom: 5px;
+}
+
+.articleInfo strong {
+  font-weight: bold;
+}
+
+.articleCommentsIcon {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.articleIconsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

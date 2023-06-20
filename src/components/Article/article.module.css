@@ -1,0 +1,167 @@
+.article,
+.articleDisabled {
+  /* background-color: #ffffff; */
+  /* padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); */
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 320px;
+  max-width: 1096px;
+}
+
+.articleDisabled {
+  opacity: 0.8;
+}
+
+.articleContent {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 4px;
+}
+
+.articleHeader {
+  margin-bottom: 15px;
+}
+
+.articleActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.articleTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #1da1f2;
+  max-width: 600px;
+}
+
+.deleteArticle,
+.editArticle {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deleteArticle:hover {
+  background-color: #c50f0f;
+}
+
+.deleteArticle:active {
+  background-color: #960e0e;
+}
+
+.editArticle {
+  margin-left: 20px;
+  background-color: #657786;
+}
+
+.editArticle:hover {
+  background-color: #556d80;
+}
+
+.editArticle:active {
+  background-color: #415769;
+}
+
+.articleInfo {
+  font-size: 14px;
+  color: #657786;
+  margin-bottom: 10px;
+}
+
+.articleInfo span {
+  margin-right: 10px;
+}
+
+.articleText {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #14171a;
+  white-space: pre-line;
+}
+
+.comments {
+  margin-top: 25px;
+}
+
+.comment {
+  background-color: #f5f8fa;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.commentAuthor {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #1da1f2;
+}
+
+.commentContent {
+  margin-left: 5px;
+  color: #14171a;
+}
+
+.backMainPage {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  width: max-content;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .article {
+    margin: 0 20px;
+  }
+
+  .articleContent {
+    padding: 15px;
+  }
+
+  .articleTitle {
+    font-size: 18px;
+  }
+
+  .deleteArticle,
+  .editArticle {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .articleTitle {
+    font-size: 16px;
+  }
+
+  .articleInfo {
+    font-size: 12px;
+  }
+
+  .deleteArticle,
+  .editArticle {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}

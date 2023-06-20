@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Скрыть вертикальную полосу прокрутки */
+::-webkit-scrollbar {
+  width: 0.5em; /* Ширина полосы прокрутки */
+  background-color: #F5F5F5; /* Цвет фона полосы прокрутки */
+}
+
+/* Стили для ползунка (бегунка) полосы прокрутки */
+::-webkit-scrollbar-thumb {
+  background-color: #000000; /* Цвет ползунка */
+}
+
+/* Стили для трека (полосы) полосы прокрутки */
+::-webkit-scrollbar-track {
+  background-color: #F5F5F5; /* Цвет трека */
+}
